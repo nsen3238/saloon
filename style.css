@@ -81,3 +81,43 @@ a{
     background-color: bisque;
     text-align: center;
 }
+.menu-btn{
+    background-color: black;
+    width: 25px;
+    height: 3px;
+    margin: 6px 0px;
+}
+
+
+.mangilaal a{
+    display: block;
+}
+.dn{
+    display: none;
+}
+
+@media (max-width:1306px) {
+
+    .mangilaal{
+        justify-content: end;
+    }
+    .mangilaal a{
+        display: none;
+    }
+    .dn{
+        display: block;
+    }
+
+}
+@media (max-width:900px) {
+
+    .hero-section{
+        flex-direction: column-reverse;
+    }
+    .hero-img{
+        width: 100%;
+    }
+    .hero-txt{
+        width: 100%;
+    }
+}
