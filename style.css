@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    
+
+}
+.hedar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    
+    background-color: bisque;
+
+}
+.hariprasad{
+    width: 25%;
+    color: brown;
+}
+.mangilaal{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+.hero-section{
+    background-color:lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(./saloonimage/barber-shaving-contouring-male-customer-s-beard.jpg); */
+}
+.hero-img{
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 50%;
+    /* width: 50vw; */
+
+    height: 90vh;
+}
+.hero-txt{
+    width: 50%;
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50PX;
+    margin: 10px;
+    /* background-image: url(./saloonimage/barber-shaving-contouring-male-customer-s-beard.jpg); */
+    
+
+}
+.xyz{
+    display: flex;
+    flex-wrap:wrap ;
+}
+.abc{
+    border: solid;
+    border-radius: 32px;
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+    /* flex-wrap: wrap; */
+}
+.footar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: bisque;
+    text-align: center;
+}
